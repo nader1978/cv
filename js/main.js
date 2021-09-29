@@ -63,8 +63,8 @@
         var typed = new Typed('.hero .hero-text h2',
             {
             strings: typed_strings.split(','),
-            typeSpeed: 250,
-            backSpeed: 250,
+            typeSpeed: 150,
+            backSpeed: 150,
             smartBackspace: false,
             loop: true
         });
