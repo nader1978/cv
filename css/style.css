@@ -766,6 +766,24 @@ a:focus {
     transition: .3s;
 }
 
+.service .Company-Logo {
+    position: relative;
+    width: 150px;
+    min-height: 150px;
+    display: flex;
+    align-items: Right;
+    justify-content: center;
+    border: 1px solid #003366;
+    background: #ffffff;
+}
+
+.service .Company-Logo  i {
+    position: relative;
+    font-size: 60px;
+    color: #003366;
+    transition: .3s;
+}
+
 .service .service-item:hover i {
     font-size: 75px;
 }
